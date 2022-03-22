@@ -24,7 +24,11 @@ namespace BackWorkerTest
         {
             InitializeComponent();
 
-            con1 = new SqlConnection(@"Data Source=DESKTOP-NFQ9Q5O\SQLEXPRESS;Initial Catalog=inv20;Persist Security Info=True;User ID=sa;Password=y2000");
+            con1 = new SqlConnection(
+            @"Data Source=150.0.0.41;
+            Initial Catalog=inv20;
+            Persist Security Info=True;
+            User ID=sa;Password=y2000");
             con1.Open();
             cmd1 = new SqlCommand("", con1);
 
