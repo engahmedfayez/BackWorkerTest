@@ -58,7 +58,7 @@ namespace BackWorkerTest
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(48, 183);
+            this.progressBar1.Location = new System.Drawing.Point(48, 115);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(637, 74);
             this.progressBar1.TabIndex = 1;
@@ -78,7 +78,7 @@ namespace BackWorkerTest
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(44, 285);
+            this.label1.Location = new System.Drawing.Point(44, 204);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(18, 19);
             this.label1.TabIndex = 3;
@@ -99,7 +99,7 @@ namespace BackWorkerTest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(766, 336);
+            this.ClientSize = new System.Drawing.Size(766, 266);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label1);
